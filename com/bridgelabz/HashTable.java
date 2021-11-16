@@ -88,7 +88,7 @@ public class HashTable {
 	    }
 
 
-	    //find frequency of words in a large paragraph phrase
+	    //find frequency  words in a large paragraph phrase
 	    public void freqOfWords(String str){
 	        Map<String, Integer> map = new TreeMap<>();
 	        String arr[] = str.split(" ");
