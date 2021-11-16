@@ -104,16 +104,7 @@ public class HashTable {
 	        }
 	    }
 
-	    public void remWord(String str) {
-	        Map<String, Integer> map = new TreeMap<>();
-
-	        Iterator <String> word = map.keySet().iterator();
-	        while (word.hasNext()){
-	            if (word.next().equals(str)){
-	                word.remove();
-	            }
-	        }
-	    }
+	  
 
 
 
@@ -145,7 +136,7 @@ public class HashTable {
 	        System.out.println("Given Para String : " + paraString);
 	        hashTable.freqOfWords(paraString);
 
-	        hashTable.remWord("they");
+	        
 
 
 
